@@ -1,0 +1,794 @@
+[
+  {
+    "input": "que tal",
+    "output": "saludar"
+  },
+  {
+    "input": "hola UNK tal",
+    "output": "saludar"
+  },
+  {
+    "input": "hola que onda",
+    "output": "saludar"
+  },
+  {
+    "input": "UNK como estas",
+    "output": "saludar"
+  },
+  {
+    "input": "hola ¿ estas",
+    "output": "saludar"
+  },
+  {
+    "input": "hola como",
+    "output": "saludar"
+  },
+  {
+    "input": "¡ tal como estas",
+    "output": "saludar"
+  },
+  {
+    "input": "que bueno como estas",
+    "output": "saludar"
+  },
+  {
+    "input": "que tal  estas",
+    "output": "saludar"
+  },
+  {
+    "input": "que tal como UNK",
+    "output": "saludar"
+  },
+  {
+    "input": "hey como va todo",
+    "output": "saludar"
+  },
+  {
+    "input": "hola asi va todo",
+    "output": "saludar"
+  },
+  {
+    "input": "hola como todo todo",
+    "output": "saludar"
+  },
+  {
+    "input": "hola como va ¿",
+    "output": "saludar"
+  },
+  {
+    "input": "tal como estas",
+    "output": "saludar"
+  },
+  {
+    "input": "buenas en estas",
+    "output": "saludar"
+  },
+  {
+    "input": "buenas como malas",
+    "output": "saludar"
+  },
+  {
+    "input": "cualquier dia",
+    "output": "saludar"
+  },
+  {
+    "input": "buen trabajo",
+    "output": "saludar"
+  },
+  {
+    "input": "dias",
+    "output": "saludar"
+  },
+  {
+    "input": "buenos",
+    "output": "saludar"
+  },
+  {
+    "input": "buenas tardes",
+    "output": "saludar"
+  },
+  {
+    "input": "buena",
+    "output": "saludar"
+  },
+  {
+    "input": "horas tardes",
+    "output": "saludar"
+  },
+  {
+    "input": "buenas",
+    "output": "saludar"
+  },
+  {
+    "input": "mi noche",
+    "output": "saludar"
+  },
+  {
+    "input": "buena calidad",
+    "output": "saludar"
+  },
+  {
+    "input": "buenas noches",
+    "output": "saludar"
+  },
+  {
+    "input": "de",
+    "output": "despedirse"
+  },
+  {
+    "input": "te vemos",
+    "output": "despedirse"
+  },
+  {
+    "input": "nos",
+    "output": "despedirse"
+  },
+  {
+    "input": "tarde luego",
+    "output": "despedirse"
+  },
+  {
+    "input": "hablamos el",
+    "output": "despedirse"
+  },
+  {
+    "input": "pero era todo",
+    "output": "despedirse"
+  },
+  {
+    "input": "eso fue todo",
+    "output": "despedirse"
+  },
+  {
+    "input": "eso era lo",
+    "output": "despedirse"
+  },
+  {
+    "input": "UNK hasta luego",
+    "output": "despedirse"
+  },
+  {
+    "input": "chao muchas luego",
+    "output": "despedirse"
+  },
+  {
+    "input": "chao hasta vos",
+    "output": "despedirse"
+  },
+  {
+    "input": "mas luego",
+    "output": "despedirse"
+  },
+  {
+    "input": "hasta luego",
+    "output": "despedirse"
+  },
+  {
+    "input": "mas pronto",
+    "output": "despedirse"
+  },
+  {
+    "input": "hasta UNK",
+    "output": "despedirse"
+  },
+  {
+    "input": "mejor hasta pronto",
+    "output": "despedirse"
+  },
+  {
+    "input": "chao chao pronto",
+    "output": "despedirse"
+  },
+  {
+    "input": "chao hasta alla",
+    "output": "despedirse"
+  },
+  {
+    "input": "tan",
+    "output": "despedirse"
+  },
+  {
+    "input": "mas videos de bachata",
+    "output": "buscar/video"
+  },
+  {
+    "input": "buscar canciones de bachata",
+    "output": "buscar/video"
+  },
+  {
+    "input": "buscar videos i bachata",
+    "output": "buscar/video"
+  },
+  {
+    "input": "buscar videos de las",
+    "output": "buscar/video"
+  },
+  {
+    "input": "y saber como bailar con videotutoriales",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero ver como bailar con videotutoriales",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero saber a bailar con videotutoriales",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero saber como trabajamos con videotutoriales",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero saber como bailar con videotutoriales",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero saber como bailar con ellas",
+    "output": "buscar/video"
+  },
+  {
+    "input": "en un videotutorial",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero mi videotutorial",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero un nombre",
+    "output": "buscar/video"
+  },
+  {
+    "input": "puede buscar videos",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero tus videos",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero buscar buscar",
+    "output": "buscar/video"
+  },
+  {
+    "input": "adelanto video musical",
+    "output": "buscar/video"
+  },
+  {
+    "input": "buscar un musical",
+    "output": "buscar/video"
+  },
+  {
+    "input": "buscar video por",
+    "output": "buscar/video"
+  },
+  {
+    "input": "en un video de risa",
+    "output": "buscar/video"
+  },
+  {
+    "input": "buscar el video de risa",
+    "output": "buscar/video"
+  },
+  {
+    "input": "buscar un tipo de risa",
+    "output": "buscar/video"
+  },
+  {
+    "input": "buscar un video UNK risa",
+    "output": "buscar/video"
+  },
+  {
+    "input": "buscar un video de este",
+    "output": "buscar/video"
+  },
+  {
+    "input": "creadores de videos graciosos",
+    "output": "buscar/video"
+  },
+  {
+    "input": "informacion en videos graciosos",
+    "output": "buscar/video"
+  },
+  {
+    "input": "informacion de lugares graciosos",
+    "output": "buscar/video"
+  },
+  {
+    "input": "informacion de videos completo",
+    "output": "buscar/video"
+  },
+  {
+    "input": "pueden saber la cancion del video",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero ver la cancion del video",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero saber cual cancion del video",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero saber la copia del video",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero saber la cancion  video",
+    "output": "buscar/video"
+  },
+  {
+    "input": "quiero saber la cancion del cante",
+    "output": "buscar/video"
+  },
+  {
+    "input": "sus videos de salsa",
+    "output": "buscar/video"
+  },
+  {
+    "input": "necesito UNK de salsa",
+    "output": "buscar/video"
+  },
+  {
+    "input": "necesito videos  salsa",
+    "output": "buscar/video"
+  },
+  {
+    "input": "necesito videos de la",
+    "output": "buscar/video"
+  },
+  {
+    "input": "para este video random",
+    "output": "buscar/video"
+  },
+  {
+    "input": "busca el video random",
+    "output": "buscar/video"
+  },
+  {
+    "input": "busca este mapa random",
+    "output": "buscar/video"
+  },
+  {
+    "input": "busca este video",
+    "output": "buscar/video"
+  },
+  {
+    "input": "y musica de bachata",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "buscar canta de bachata",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "buscar musica la bachata",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "buscar musica de papa",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "tambien saber como cantar canciones",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero mostrarte como cantar canciones",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero saber porque cantar canciones",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero saber como escucha canciones",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero saber como cantar",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "es una cancion de metallica",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero  cancion de metallica",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero una caja de metallica",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero una cancion que metallica",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero una cancion de UNK",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "puedes buscar canciones",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero mis canciones",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero buscar en",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "hacer musica",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "buscar a",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "con una cancion de salsa",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "buscar  cancion de salsa",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "buscar una especie de salsa",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "buscar una cancion  salsa",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "buscar una cancion de cuna",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "disco de canciones graciosas",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "informacion UNK canciones graciosas",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "informacion de cosas graciosas",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "informacion de canciones y",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "no saber la cancion",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero toda la cancion",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero saber cual cancion",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "quiero saber la historia",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "canciones de salsa",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "necesito salsa de salsa",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "necesito canciones con salsa",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "necesito canciones de ellas",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "solo esta cancion random",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "busca  cancion random",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "busca esta en random",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "busca esta cancion",
+    "output": "buscar/musica"
+  },
+  {
+    "input": "alli esta la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "como navegar la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "como esta mi red",
+    "output": "feature/red"
+  },
+  {
+    "input": "como esta la UNK",
+    "output": "feature/red"
+  },
+  {
+    "input": "UNK esta la conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "como comprender la conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "como esta en conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "como esta la cosa",
+    "output": "feature/red"
+  },
+  {
+    "input": "UNK la velocidad de la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica una velocidad de la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la calidad de la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad desde la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad de cada red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad de la palabra",
+    "output": "feature/red"
+  },
+  {
+    "input": "y la velocidad del internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica otra velocidad del internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la consulta del internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad al internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad del coche",
+    "output": "feature/red"
+  },
+  {
+    "input": "x la velocidad de la conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica UNK velocidad de la conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la integridad de la conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad cambiando la conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad de tu conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad de la",
+    "output": "feature/red"
+  },
+  {
+    "input": "la conexion a internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "revisa las conexion a internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "revisa la entrada a internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "revisa la conexion  internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "revisa la conexion a cable",
+    "output": "feature/red"
+  },
+  {
+    "input": "de la velocidad de la internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "revisa esta velocidad de la internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "revisa la pag de la internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "revisa la velocidad  la internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "revisa la velocidad de como internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "revisa la velocidad de la autopista",
+    "output": "feature/red"
+  },
+  {
+    "input": "donde ves la velocidad de red",
+    "output": "feature/red"
+  },
+  {
+    "input": "como transformar la velocidad de red",
+    "output": "feature/red"
+  },
+  {
+    "input": "como ves una velocidad de red",
+    "output": "feature/red"
+  },
+  {
+    "input": "como ves la red de red",
+    "output": "feature/red"
+  },
+  {
+    "input": "como ves la velocidad la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "como ves la velocidad de las",
+    "output": "feature/red"
+  },
+  {
+    "input": "que velocidad tengo en la red actual",
+    "output": "feature/red"
+  },
+  {
+    "input": "que problemas tengo en la red actual",
+    "output": "feature/red"
+  },
+  {
+    "input": "que velocidad aumenta en la red actual",
+    "output": "feature/red"
+  },
+  {
+    "input": "que velocidad tengo  la red actual",
+    "output": "feature/red"
+  },
+  {
+    "input": "que velocidad tengo en nuestra red actual",
+    "output": "feature/red"
+  },
+  {
+    "input": "que velocidad tengo en la sociedad actual",
+    "output": "feature/red"
+  },
+  {
+    "input": "que velocidad tengo en la red y",
+    "output": "feature/red"
+  },
+  {
+    "input": "aumentar la velocidad del internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba y velocidad del internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba la nave del internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba la velocidad por internet",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba la velocidad del UNK",
+    "output": "feature/red"
+  },
+  {
+    "input": "de la conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba  conexion",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba la que",
+    "output": "feature/red"
+  },
+  {
+    "input": "de la conexion y su velocidad",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba tu conexion y su velocidad",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba la luz y su velocidad",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba la conexion en su velocidad",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba la conexion y una velocidad",
+    "output": "feature/red"
+  },
+  {
+    "input": "prueba la conexion y su precio",
+    "output": "feature/red"
+  },
+  {
+    "input": "es la velocidad de la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad de la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la estabilidad de la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad en la red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad de UNK red",
+    "output": "feature/red"
+  },
+  {
+    "input": "verifica la velocidad de la marcha",
+    "output": "feature/red"
+  }
+]
