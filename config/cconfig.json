@@ -1,0 +1,14 @@
+{
+  "user": {
+    "name": "Juan",
+    "email": "",
+    "gender": ""
+  },
+  "general": {
+    "name": "Juan",
+    "language": "es"
+  },
+  "web": {
+    "browser": "Chrome"
+  }
+}
