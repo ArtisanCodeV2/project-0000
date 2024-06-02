@@ -27,9 +27,9 @@ video = cv2.VideoCapture(path)
 audio_started = False
 
 def speak_with_delay():
-  time.sleep(2)
+  time.sleep(1.75)
   tts.speak('Hola', 'es')
-  time.sleep(1)
+  time.sleep(0.80)
   tts.speak('Soy Lucy', 'es')
   time.sleep(0.3)
   tts.speak('y sere tu asistente virtual', 'es')

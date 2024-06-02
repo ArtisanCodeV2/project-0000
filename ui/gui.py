@@ -1,44 +1,54 @@
-# ui.py
-import tkinter as tk
-from text_to_speech import text_to_speech
+from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.floatlayout import FloatLayout
+from kivy.uix.button import Button
+from kivy.animation import Animation
+from kivy.graphics import Color, Rectangle
 
-tts = text_to_speech()
+class Sidebar(BoxLayout):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.orientation = 'vertical'
+        self.size_hint = (None, 1)
+        self.width = 200
+        self.is_visible = True
 
-class GUI:
-  def __init__(self):
-    # Crear la ventana
-    self.main_window = tk.Tk()
-    self.main_window.title("Mi primer ventana")
-    self.main_window.geometry("800x600")
-    self.main_window.resizable(False, False)
-    self.main_window.configure(bg="white")
+        with self.canvas.before:
+            Color(0, 0, 1, 1)  # set the color to blue
+            self.rect = Rectangle(size=self.size, pos=self.pos)
 
-    # Crear los frames para las tres secciones
-    self.left_frame = tk.Frame(self.main_window, bg="blue", width=200)
-    self.center_frame = tk.Frame(self.main_window, bg="green")
-    self.right_frame = tk.Frame(self.main_window, bg="red", width=200)
+        self.bind(size=self._update_rect, pos=self._update_rect)
+        for i in range(5):  # add 5 buttons as an example
+            btn = Button(text=f'Button {i+1}', size_hint_y=None, height=40)
+            self.add_widget(self.btn)
 
-    # Configurar el grid para que el frame del centro se expanda
-    self.main_window.grid_columnconfigure(1, weight=1)
-    self.main_window.grid_rowconfigure(0, weight=1)
+    def _update_rect(self, instance, value):
+        self.rect.pos = instance.pos
+        self.rect.size = instance.size
 
-    # Posicionar los frames
-    self.left_frame.grid(row=0, column=0, sticky="ns")
-    self.center_frame.grid(row=0, column=1, sticky="nsew")
-    self.right_frame.grid(row=0, column=2, sticky="ns")
+    def toggle(self, instance):
+        if self.is_visible:
+            anim = Animation(width=0, d=0.5)
+            for btn in self.buttons:
+                anim += Animation(opacity=0, d=0.5)
+            anim.start(self)
+            self.is_visible = False
+        else:
+            anim = Animation(width=200, d=0.5)
+            for btn in self.buttons:
+                anim += Animation(opacity=1, d=0.5)
+            anim.start(self)
+            self.is_visible = True
 
-    # Crear un label para mostrar el video en el frame del centro
-    self.label = tk.Label(self.center_frame)
-    self.label.pack(expand=True, fill="both")
+class MyApp(App):
+    def build(self):
+        root = FloatLayout()
+        sidebar = Sidebar()
+        toggle_button = Button(text='Toggle', size_hint=(None, None), size=(50, 50),
+                               pos_hint={'right': 1}, on_press=sidebar.toggle)
+        root.add_widget(sidebar)
+        root.add_widget(toggle_button)
+        return root
 
-    # Crear un botón en el frame del centro
-    self.button = tk.Button(self.center_frame, text="Botón", command=lambda: print("Botón presionado"))
-    self.button.pack()
-
-  def run(self):
-    # Ejecutar el mainloop
-    self.main_window.mainloop()
-
-if __name__ == "__main__":
-  ui = GUI()
-  ui.run()
+if __name__ == '__main__':
+    MyApp().run()
